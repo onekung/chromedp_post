@@ -3,6 +3,7 @@ golang chromedp library post data to chrome browser
 
 #Response
 
+
 GET RESPONSE
 <html><head></head><body>{"ip":"xxx.x.xxx.xx","country":"Thailand","cc":"TH"}</body></html>
 
