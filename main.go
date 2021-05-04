@@ -170,7 +170,7 @@ func ChromeRequest(req *cRequest) (*cResponse, error) {
 							if withHeader {
 								f = f.WithHeaders(headers)
 							}
-							if req.Method == "POST" || req.Method == "PUST" || req.Method == "DELETE" {
+							if req.Method == "POST" || req.Method == "PUT" || req.Method == "DELETE" {
 								if req.Body != nil && len(req.Body) > 0 {
 									f = f.WithPostData(base64.StdEncoding.EncodeToString(req.Body))
 								}
